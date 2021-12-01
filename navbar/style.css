@@ -1,0 +1,103 @@
+body {
+  font-family: "Manrope", sans-serif !important;
+  margin: 0;
+  background-color: #edeeee;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  background-color: bisque;
+  align-items: center;
+  padding: 0.8rem 1.3rem;
+}
+
+.btn-light {
+  background-color: bisque;
+}
+
+.links a {
+  text-decoration: none;
+  margin-left: 1.75rem;
+  color: inherit;
+}
+
+.links a:hover {
+  color: gray;
+}
+
+.btn {
+  display: none;
+}
+
+.block-links {
+  display: none;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 7rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: #edeeee;
+  }
+
+  .nav-center {
+    padding: 0.5rem 1.3rem;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .btn-light {
+    display: block;
+    border-color: #f7dca4;
+  }
+
+  .btn-light:focus {
+    background-color: bisque;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .btn-light:hover {
+    background-color: bisque;
+  }
+
+  i {
+    font-size: 1.3rem;
+  }
+
+  .block-links {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    padding: 0rem 1.7rem;
+  }
+
+  .block-links a:hover {
+    color: gray;
+  }
+
+  .main-content {
+    margin: 1.5rem 4rem;
+    text-align: center;
+  }
+
+  .block-links a {
+    text-decoration: none;
+    margin-bottom: 0.6rem;
+    color: inherit;
+  }
+
+  .toggle {
+    display: none;
+  }
+}
