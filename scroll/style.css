@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(187, 140, 102), rgb(139, 74, 41));
+  /* scroll-behavior: smooth;
+  transition: background 1s ease-in; */
+}
+
+/* NavBar */
+
+.navbar.navbar-light {
+  padding: 0.75rem 4rem;
+}
+.navbar-collapse {
+  justify-content: end;
+}
+
+.navbar-nav a {
+  margin-left: 2rem;
+}
+
+.nav-transparent {
+  background-color: transparent !important;
+}
+
+.nav-white {
+  background-color: rgb(243, 222, 205) !important;
+}
+
+/* Home Section */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1568206222579-3d32da70596b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1333&q=80");
+  background-size: cover;
+}
+
+.home h1,
+p {
+  color: aliceblue;
+}
+
+/* about section */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(224, 224, 224);
+  margin: 2rem 12rem;
+}
+
+.about h2,
+p {
+  color: aliceblue;
+  padding: 2rem 3rem;
+}
+
+/* Up Button */
+.up-btn {
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
+  z-index: 10;
+  background-color: rgb(170, 143, 156);
+  border: inherit;
+}
+
+.up-btn:hover,
+.up-btn:visited,
+.up-btn:active {
+  background-color: rgb(134, 89, 100);
+  border: inherit;
+}
+
+.hide-btn {
+  display: none;
+}
+
+.footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 222, 205);
+  color: black;
+  font-size: 1.12rem;
+}
+
+.year {
+  margin: 0 0.25rem;
+}
