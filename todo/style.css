@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(228, 250, 247), rgb(245, 238, 244));
+}
+
+.outer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  padding: 2rem 3rem 0rem 3rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px #b6b1b1;
+}
+
+.wrapper h3 {
+  letter-spacing: 1.5px;
+  margin-bottom: 2rem;
+}
+
+.wrapper input {
+  width: 25vw !important;
+}
+
+.input-group {
+  margin-bottom: 1.5rem !important;
+}
+
+.btn-submit {
+  width: 90px;
+}
+
+.btn-clear {
+  margin: 2rem 9rem 1rem 9rem;
+  border: none;
+}
+
+.hide {
+  display: none !important;
+}
+
+/* new item class */
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1rem;
+}
+
+.item p {
+  font-size: 1rem;
+}
+
+.bi:hover {
+  background-color: white;
+}
+
+.bi-pencil-square {
+  color: greenyellow;
+  font-size: 1.2rem;
+}
+
+.bi-trash-fill {
+  color: red;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.btn-item {
+  background-color: white;
+  padding: 0;
+  border: none;
+}
+
+.alert-msg {
+  background-color: rgba(233, 167, 167, 0.466);
+  border: 1px solid inherit;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem auto 0.1rem auto;
+  height: 35px;
+}
+
+/* highlight class */
+.highlight {
+  background-color: rgb(215, 215, 248);
+}
